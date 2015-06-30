@@ -1,0 +1,317 @@
+*{
+ box-sizing: border-box;
+}
+
+body {
+	background-color: #fafafa;
+	font-size: 16px;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	color: #8e8e8e;
+}
+
+a {
+	text-decoration: none;
+}
+	
+
+.inline-block li{
+	display: inline-block;
+
+}
+
+
+.logo {
+	position: absolute;
+	z-index: 100;
+	margin-top: 0px;
+	margin-left: 375px;
+	height: 2vw;
+	width: 2 vw;
+}
+
+
+.hero_image {
+background: url(../img/background.jpg) no-repeat center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+text-align: center;
+vertical-align: middle;
+/*height: 1080px;*/
+height: 50vw;
+}
+
+.header_nav {
+	float: right;
+	margin-right: 200px;
+	
+}
+
+.header_nav li {
+	padding: 10px 20px 10px;
+	margin-top: 5px;
+
+	
+}
+
+
+.header_nav li a{
+	color:#b5b2b4;
+	text-decoration: none;
+
+}	
+
+.header_nav li a:hover {
+		border-bottom: 4px solid #fff;
+		padding-bottom: 30px;
+	}
+
+header {
+	height: 70px;
+	border-bottom: 3px solid #8c888b;
+
+}
+
+
+
+
+.slideshow h1 {
+	font-size: 5.7vw;
+	color: #fff;
+	font-family: 'Teko', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	clear: left;
+	letter-spacing: 18px;
+	text-transform: uppercase;
+	margin-left: 325px;
+	margin-right: 325px;
+
+}
+
+.slideshow {
+	position: absolute;
+	top: 340px;
+	
+	
+}
+
+.slideshow p {
+	margin-top: 50px;
+	font-size: 22px;
+	color: #fff;
+	
+}
+
+.slideshow button {
+	margin-top: 50px;
+	color: #fff;
+	padding: 20px 75px;
+}
+
+.text {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 300;
+	font-family: 'Teko', sans-serif;
+	letter-spacing: 5px;
+
+
+}
+
+.projects{
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	height: 1080px
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+
+.projects img{
+	/*width: 960px;
+	height: 540px;*/
+	width: 40vw;
+	height: 22.4vw;
+	margin: 10px;
+}
+
+.projects article {
+	width: 1000px;
+	height: 580px;
+}
+
+.projects h2 {
+	font-family: 'Teko', sans-serif;
+	color: #000;
+	font-weight: 300;
+	font-size: 40px;
+	text-align: center;
+	margin: 50px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+
+}
+
+h4 {
+	font-family: 'Teko', sans-serif;
+	font-size: 30px;
+	letter-spacing: 5px;
+	color: #000;
+	text-transform: uppercase;
+	margin: 5px
+
+
+}
+
+.link {
+	color: #f63c3c;
+	text-decoration: underline;
+	margin: 50px;
+	font-family: 'Teko', sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.showcase {
+	background: #f63c3c;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	height: 300px;
+	
+
+}
+
+h3 {
+	font-family: 'Teko', sans-serif;
+	color: #fff;
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	padding: 55px 0px 15px 00px;
+	
+	
+}
+
+.showcase p {
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.showcase button {
+	margin-top: 30px;
+	padding: 15px 75px 15px 75px;
+	color: #fffffc;
+}
+
+.link a {
+	color:#f63c3c;
+}
+
+.social_media {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	vertical-align: middle;
+	height: 400px;
+	margin-top: 50px;
+	
+}
+
+.social_media li {
+	background-color: #000;
+	height: 200px;
+	width: 270px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 50px;
+	position: relative;
+}
+
+ .social_media a {
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	text-transform: uppercase;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%);
+	display: block;
+	margin: 2px;
+	
+}
+
+.social_media h2 {
+	font-family: 'Teko', sans-serif;
+	color: #000;
+	font-weight: 300;
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+
+	
+	
+}
+
+.social_media p{
+	margin-bottom: 50px;
+}	
+
+footer {
+	padding: 50px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+
+.container {
+	position: relative;
+	width: 100vw;
+	max-width: 1212px;
+	margin: 0 auto;
+
+}
+
+.container h2 {
+	text-align: left;
+	margin-left: 15px;
+}
+
+.container small {
+	text-align: left;
+	margin-left: 15px;
+}
+
+.container p {
+	text-align: left;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
